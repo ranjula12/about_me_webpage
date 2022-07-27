@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../src/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.name {
+    color: aliceblue;
+}
+
+span{
+    color: rgb(115, 247, 27);
+}
+
+nav ul li a:hover{
+    color: rgb(115, 247, 27);
+}
+
+nav ul li a{
+    color: aliceblue;
+}
+
+div.head div.myphoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px ;
+    clip-path: circle();
+}
+
+.head{
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+.myphoto img{
+    height: 200px;
+}
+.content {
+    color: rgb(2, 23, 8);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px;
+    background-color: rgb(231, 224, 224);
+    justify-content: center;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.content h3{
+    margin-bottom: 10px;
+}
+
+.content h4{
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.botom {
+    margin-top: 20px;
+    background-color: rgb(100, 113, 111);
+    height: 60vh;
+    box-shadow: 0px -10px 50px rgb(101, 110, 104);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.botom .cont h2 {
+    padding: 20px;
+    color: aliceblue;
+    font-size: 25px;
+   
+}
+.botom .ico ul li  {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.botom .ico ul li a{
+    color: aliceblue;
+    padding: 40px;
+}
+
+.botom ul li a:hover{
+    color: rgb(115, 247, 27);
+}
+
+.botom hr{
+    overflow: hidden;
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;   
+}
+
+.whatsapp{
+    padding: 20px;
+    color: aliceblue;
+}
+.whatsapp img{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.botom p{
+    color: aliceblue;
+}
+
+@media screen and (max-width:480px){
+.main{
+    height: 1080px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.main nav{
+    overflow: auto;
+}
+nav ul li {
+   margin-right: 2px;
+   padding: 2px;
+}
+nav{
+    padding: 10px;
+}
+.botom{
+    height: 500px;
+}
+.botom .ico ul li a{
+    padding: 5px;
+}
+.content{
+    width: 250px;
+    margin: 0 auto;
+}
+
+}
